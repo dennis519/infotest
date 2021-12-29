@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>訊咖力。| 評量頁面</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+    <div class="resultWindow animate__zoomIn">
+        <div class="res">
+            <div class="close"><div class="cir"><i class="fas fa-times"></i></div></div>
+            <div class="patch1"></div>
+            <div class="patch2"><a href=""><i class="fas fa-home"></i><p>回首頁</p></a></div>
+            <img src="image/resultTitle.png" alt="恭喜完成" width="400" class="ch-image">
+            <img src="image/dfish.gif" alt="魚" class="fish">
+            <div class="resTxt">
+                <img src="/image/resultCircle.png" alt="圈圈" class="resTag" >
+                <p>正確題數<span class="resNum" id="cornum"></span>題</p>
+            </div>
+            <div class="resTxt">
+                <img src="/image/resultCross.png" alt="叉叉" class="resTag">
+                <p>答錯題數<span class="resNum" id="wrnum"></span>題</p>
+            </div>
+            <div class="moreInfo" id="moreInfo">
+                <div class="que" id="que1">
+                </div>
+                <div class="adv" id="adv1">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="view1">
+        <img src="image/earth.png" alt="球" class="erath">
+        <img src="image/Intag.png" alt="說明" class="tag ">
+        <img src="image/titleImage.png" alt="標題" class="title">
+    </div>
+    <div class="view2">
+        <div class="questionBar bgInfo">
+            <div class="questionList">
+                <div class="question bdr q2">
+                    <h2>[第一題]</h2>
+                    <p  data-aos="fade-right">1.請問以下訊息設計的技巧何者最正確呢？</p>
+                    <div class="ansGroup" data-aos="fade-right">
+                        <div class="ans">
+                            <input type="radio" id="cbox1" name="q1" value="q1w1" class="box">
+                            <label for="cbox1">(A)留白</label>
+                        </div>
+                        <div class="ans">
+                            <input type="radio" id="cbox2" name="q1" value="q1w2" class="box">
+                            <label for="cbox2">(B)對齊</label>
+                        </div>
+                        <div class="ans">
+                            <input type="radio" id="cbox3" name="q1" value="q1c1" class="box correct">
+                            <label for="cbox3">(C)以上皆是</label>
+                        </div>
+                     </div>
+                </div>
+                <div class="question q2">
+                    <h2>[第二題]</h2>
+                    <p data-aos="fade-right">2.請問下列何者是訊息設計要的原則？</p>
+                    <div class="ansGroup" data-aos="fade-right">
+                        <div class="ans">
+                            <input type="radio" id="cbox4" name="q2" value="huey" class="box correct">
+                            <label for="cbox4">(A)讓人可以輕鬆接受資訊</label>
+                        </div>
+                        <div class="ans">
+                            <input type="radio" id="cbox5" name="q2" value="huey" class="box">
+                            <label for="cbox5">(B)一定要將資訊塞滿才豐富</label>
+                        </div>
+                        <div class="ans">
+                            <input type="radio" id="cbox6" name="q2" value="huey" class="box">
+                            <label for="cbox6">(C)只要漂亮、好看就可以了！</label>
+                        </div>
+                     </div>
+                </div>
+                <div class="titleTag">
+                    <span>訊息設計</span>
+                </div>
+            </div>
+        </div>
+        <div class="questionBar bgColor">
+            <div class="questionList">
+                <div class="question bdr q2">
+                    <h2>[第三題]</h2>
+                    <p data-aos="fade-up">3.色相環對面的顏色為下列何者？</p>
+                    <div class="ansGroup" data-aos="fade-up">
+                        <div class="ans">
+                            <input type="radio" id="cbox7" name="q3" value="huey" class="box correct">
+                            <label for="cbox7">(A)補色</label>
+                        </div>
+                        <div class="ans">
+                            <input type="radio" id="cbox8" name="q3" value="huey" class="box">
+                            <label for="cbox8">(B)相近色</label>
+                        </div>
+                        <div class="ans">
+                            <input type="radio" id="cbox9" name="q3" value="huey" class="box">
+                            <label for="cbox9">(C)分離補色</label>
+                        </div>
+                     </div>
+                </div>
+                <div class="question bdr q2">
+                    <h2>[第四題]</h2>
+                    <p data-aos="fade-up">4.不同顏色具有不同的視覺傳達效果。
+                        請問哪一種類型顏色容易造成視覺疲勞，不建議用於品牌色？
+                        </p>
+                     <div class="ansGroup" data-aos="fade-up">
+                        <div class="ans">
+                            <input type="radio" id="cbox10" name="q4" value="huey" class="box">
+                            <label for="cbox10">(A)彩度低</label>
+                        </div>
+                        <div class="ans">
+                            <input type="radio" id="cbox11" name="q4" value="huey" class="box correct">
+                            <label for="cbox11">(B)彩度高</label>
+                        </div>
+                        <div class="ans">
+                            <input type="radio" id="cbox12" name="q4" value="huey" class="box">
+                            <label for="cbox12">(C)彩度適中</label>
+                        </div>
+                     </div>
+                </div>
+                <div class="question q2">
+                    <h2>[第五題]</h2>
+                    <p data-aos="fade-up">5.在經驗談分享中，適當顏色可以讓資訊表現方式不同。
+                        請問想要表現出高質感風格並與白色對比的顏色為何者？
+                        </p>
+                    <div class="ansGroup" data-aos="fade-up">
+                        <div class="ans">
+                            <input type="radio" id="cbox13" name="q5" value="huey" class="box">
+                            <label for="cbox13">(A)白色</label>
+                        </div>
+                        <div class="ans">
+                            <input type="radio" id="cbox14" name="q5" value="huey" class="box">
+                            <label for="cbox14">(B)綠色</label>
+                        </div>
+                        <div class="ans">
+                            <input type="radio" id="cbox15" name="q5" value="huey" class="box correct">
+                            <label for="cbox15">(C)黑色</label>
+                        </div>
+                     </div>
+                </div>
+                <div class="titleTag">
+                    <span>
+                        色彩運用
+                    </span>
+                </div>
+            </div> 
+        </div>
+        <div class="questionBar bgLearn">
+            <div class="questionList">
+                <div class="question bdr q3">
+                    <h2>[第六題]</h2>
+                    <p data-aos="fade-right">6.	請問封面頁插入的步驟為下列何者？</p>
+                    <div class="ansGroup" data-aos="fade-right">
+                        <div class="ans">
+                            <input type="radio" id="cbox16" name="q6" value="huey" class="box correct">
+                            <label for="cbox16">(A)	插入 → 封面頁</label>
+                        </div>
+                        <div class="ans">
+                            <input type="radio" id="cbox17" name="q6" value="huey" class="box">
+                            <label for="cbox17">(B)	插入 → 空白頁</label>
+                        </div>
+                        <div class="ans">
+                            <input type="radio" id="cbox18" name="q6" value="huey" class="box">
+                            <label for="cbox18">(C)	版面配置 → 封面頁</label>
+                        </div>
+                     </div>
+                </div>
+                <div class="question bdr q3">
+                    <h2>[第七題]</h2>
+                    <p data-aos="fade-right">7.	請問襯線字體應用於那裡呢？以及舉例相關字體？</p>
+                    <div class="ansGroup" data-aos="fade-right">
+                        <div class="ans">
+                            <input type="radio" id="cbox19" name="q7" value="huey" class="box">
+                            <label for="cbox19">(A)	延續視線到下一個字 / 微軟正黑體</label>
+                        </div>
+                        <div class="ans">
+                            <input type="radio" id="cbox20" name="q7" value="huey" class="box">
+                            <label for="cbox20">(B)	文字簡短、大標題 / 新細明體</label>
+                        </div>
+                        <div class="ans">
+                            <input type="radio" id="cbox21" name="q7" value="huey" class="box correct">
+                            <label for="cbox21">(C)	文字簡短、大標題 / 微軟正黑體</label>
+                        </div>
+                     </div>
+                </div>
+                <div class="question q3">
+                    <h2>[第八題]</h2>
+                    <p data-aos="fade-right">8.	請問要跳到下一個定位點可以點選鍵盤哪個按鍵？</p>
+                    <div class="ansGroup" data-aos="fade-right">
+                        <div class="ans">
+                            <input type="radio" id="cbox22" name="q8" value="huey" class="box">
+                            <label for="cbox22">(A)	Shift 鍵</label>
+                        </div>
+                        <div class="ans">
+                            <input type="radio" id="cbox23" name="q8" value="huey" class="box">
+                            <label for="cbox23">(B)	Ctrl鍵</label>
+                        </div>
+                        <div class="ans">
+                            <input type="radio" id="cbox24" name="q8" value="huey" class="box correct">
+                            <label for="cbox24">(C)	Tab鍵</label>
+                        </div>
+                     </div>
+                </div>
+                <div class="titleTag">
+                    <span>課程學習檔案</span>
+                </div>
+            </div>
+        </div>
+        <div class="questionBar bgRead">
+            <div class="questionList">
+                <div class="question bdr q2">
+                    <h2>[第九題]</h2>
+                    <p data-aos="fade-up">9. 請問下列哪個方法可以將頁面間的鏈結分割開，達到有直有橫的目標？</p>
+                    <div class="ansGroup" data-aos="fade-up">
+                        <div class="ans">
+                            <input type="radio" id="cbox25" name="q9" value="huey" class="box">
+                            <label for="cbox25">(A)	插入 → 方向</label>
+                        </div>
+                        <div class="ans">
+                            <input type="radio" id="cbox26" name="q9" value="huey" class="box correct">
+                            <label for="cbox26">(B)	版面配置 → 分隔符號 → 下一頁 → 方向</label>
+                        </div>
+                        <div class="ans">
+                            <input type="radio" id="cbox27" name="q9" value="huey" class="box">
+                            <label for="cbox27">(C)	常用 → 分隔符號 → 方向</label>
+                        </div>
+                     </div>
+                </div>
+                <div class="question bdr q2">
+                    <h2>[第十題]</h2>
+                    <p data-aos="fade-up">10.	想要將文字分欄下面何者步驟正確？</p>
+                    <div class="ansGroup" data-aos="fade-up">
+                        <div class="ans">
+                            <input type="radio" id="cbox28" name="q10" value="huey" class="box">
+                            <label for="cbox28">(A)	常用 → 欄</label>
+                        </div>
+                        <div class="ans">
+                            <input type="radio" id="cbox29" name="q10" value="huey" class="box correct">
+                            <label for="cbox29">(B)	版面配置 → 欄</label>
+                        </div>
+                        <div class="ans">
+                            <input type="radio" id="cbox30" name="q10" value="huey" class="box">
+                            <label for="cbox30">(C)	插入 → 欄</label>
+                        </div>
+                     </div>
+                </div>
+                <div class="titleTag">
+                    <span>讀書計畫</span>
+                </div>
+            </div>
+        </div>
+        <div class="questionBar bgPpt">
+            <div class="questionList">
+                <div class="question bdr q3">
+                    <h2>[第十一題]</h2>
+                    <p data-aos="fade-right">11.	請問投影母片的用途？</p>
+                    <div class="ansGroup" data-aos="fade-right">
+                        <div class="ans">
+                            <input type="radio" id="cbox31" name="q11" value="huey" class="box">
+                            <label for="cbox31">(A)	可以投影到投影機</label>
+                        </div>
+                        <div class="ans">
+                            <input type="radio" id="cbox32" name="q11" value="huey" class="box">
+                            <label for="cbox32">(B)	沒什麼用處</label>
+                        </div>
+                        <div class="ans">
+                            <input type="radio" id="cbox33" name="q11" value="huey" class="box correct">
+                            <label for="cbox33">(C)	可以利用此功能製作模板，套用到各投影片</label>
+                        </div>
+                     </div>
+                </div>
+                <div class="question bdr q3">
+                    <h2>[第十二題]</h2>
+                    <p data-aos="fade-right">12.	簡報中何種轉場可將相同文字、物件漸變到下一頁，是沉浸式簡報常用的功能？</p>
+                    <div class="ansGroup" data-aos="fade-right">
+                        <div class="ans">
+                            <input type="radio" id="cbox34" name="q12" value="huey" class="box">
+                            <label for="cbox34">(A)	擦去</label>
+                        </div>
+                        <div class="ans">
+                            <input type="radio" id="cbox35" name="q12" value="huey" class="box">
+                            <label for="cbox35">(B)	推入</label>
+                        </div>
+                        <div class="ans">
+                            <input type="radio" id="cbox36" name="q12" value="huey" class="box correct">
+                            <label for="cbox36">(C)	轉化</label>
+                        </div>
+                     </div>
+                </div>
+                <div class="question q3">
+                    <h2>[第十三題]</h2>
+                    <p data-aos="fade-right">13.	請問如果想將不同的圖形合併成一個圖案該如何做呢？</p>
+                    <div class="ansGroup" data-aos="fade-right">
+                        <div class="ans">
+                            <input type="radio" id="cbox37" name="q13" value="huey" class="box correct">
+                            <label for="cbox37">(A)	繪圖工具(格式) → 合併圖案</label>
+                        </div>
+                        <div class="ans">
+                            <input type="radio" id="cbox38" name="q13" value="huey" class="box">
+                            <label for="cbox38">(B)	版面配置 → 合併圖案</label>
+                        </div>
+                        <div class="ans">
+                            <input type="radio" id="cbox39" name="q13" value="huey" class="box">
+                            <label for="cbox39">(C)	插入 → 合併圖案</label>
+                        </div>
+                     </div>
+                </div>
+                <div class="titleTag">
+                    <span>PPT自傳</span>
+                </div>
+            </div>
+        </div>
+        <div class="subm">
+            <div class="class_link">
+                <div class="link_border">
+                    <a href="">繳交答案</a>
+                    <div class="arrow">
+                        <span></span>
+                        <h5>Go</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1200,
+      });
+    </script>
+    <script src="/JS/control.js"></script>
+</body>
+</html>
