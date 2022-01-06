@@ -1,8 +1,11 @@
-
+setTimeout(function () {
+    return window.scrollTo(0, 0);
+  }, 150);
 (function () {
     $(document).ready(function () {
         $('body').css('overflow','hidden');
-        $('.gobt').click(function(){
+        $('.gobt').click(function(event){
+            event.preventDefault();
             $('body').css('overflow','auto');
         });
         $('.yel').click(function(){

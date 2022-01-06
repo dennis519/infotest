@@ -31,68 +31,68 @@ const earth = document.getElementsByClassName("earth");
           for(let i=0;i<que.length;i++){
               switch(que[i]){
                   case 1: 
-                    if(!adv.includes('<a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">訊息設計</a>')){
-                        adv.push('<a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">訊息設計</a>');
+                    if(!adv.includes('<a href="../infopage/infopage.html" target="_blank" rel="noopener noreferrer">訊息設計</a>')){
+                        adv.push('<a href="../infopage/infopage.html" target="_blank" rel="noopener noreferrer">訊息設計</a>');
                     };
                     break;
                   case 2: 
-                    if(!adv.includes('<a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">訊息設計</a>')){
-                        adv.push('<a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">訊息設計</a>');
+                    if(!adv.includes('<a href="../infopage/infopage.html" target="_blank" rel="noopener noreferrer">訊息設計</a>')){
+                        adv.push('<a href="../infopage/infopage.html" target="_blank" rel="noopener noreferrer">訊息設計</a>');
                     };
                     break;
                   case 3:
-                    if(!adv.includes('<br>色彩運用')){
-                        adv.push('<br>色彩運用');
+                    if(!adv.includes('<br><a href="../colorpage/colorpage.html" target="_blank" rel="noopener noreferrer">色彩運用</a>')){
+                        adv.push('<br><a href="../colorpage/colorpage.html" target="_blank" rel="noopener noreferrer">色彩運用</a>');
                     };
                     break;
                   case 4:
-                    if(!adv.includes('<br>色彩運用')){
-                        adv.push('<br>色彩運用');
+                    if(!adv.includes('<br><a href="../colorpage/colorpage.html" target="_blank" rel="noopener noreferrer">色彩運用</a>')){
+                        adv.push('<br><a href="../colorpage/colorpage.html" target="_blank" rel="noopener noreferrer">色彩運用</a>');
                     };
                     break;
                   case 5:
-                    if(!adv.includes('<br>色彩運用')){
-                        adv.push('<br>色彩運用');
+                    if(!adv.includes('<br><a href="../colorpage/colorpage.html" target="_blank" rel="noopener noreferrer">色彩運用</a>')){
+                        adv.push('<br><a href="../colorpage/colorpage.html" target="_blank" rel="noopener noreferrer">色彩運用</a>');
                     };
                     break;
                   case 6:
-                    if(!adv.includes('<br>課程學習檔案')){
-                        adv.push('<br>課程學習檔案');
+                    if(!adv.includes('<br><a href="../tutorial/wordPage1.html" target="_blank" rel="noopener noreferrer">課程學習檔案</a>')){
+                        adv.push('<br><a href="../tutorial/wordPage1.html" target="_blank" rel="noopener noreferrer">課程學習檔案</a>');
                     };
                     break;
                   case 7:
-                    if(!adv.includes('<br>色彩運用')){
-                        adv.push('<br>色彩運用');
+                    if(!adv.includes('<br><a href="../tutorial/wordPage1.html" target="_blank" rel="noopener noreferrer">課程學習檔案</a>')){
+                        adv.push('<br><a href="../tutorial/wordPage1.html" target="_blank" rel="noopener noreferrer">課程學習檔案</a>');
                     };
                     break;
                   case 8:
-                    if(!adv.includes('<br>色彩運用')){
-                        adv.push('<br>色彩運用');
+                    if(!adv.includes('<br><a href="../tutorial/wordPage1.html" target="_blank" rel="noopener noreferrer">課程學習檔案</a>')){
+                        adv.push('<br><a href="../tutorial/wordPage1.html" target="_blank" rel="noopener noreferrer">課程學習檔案</a>');
                     };
                     break;
                   case 9:
-                    if(!adv.includes('<br>讀書計畫')){
-                        adv.push('<br>讀書計畫');
+                    if(!adv.includes('<br><a href="../tutorial/wordPage2.html" target="_blank" rel="noopener noreferrer">讀書計畫</a>')){
+                        adv.push('<br><a href="../tutorial/wordPage2.html" target="_blank" rel="noopener noreferrer">讀書計畫</a>');
                     };
                     break;
                   case 10:
-                    if(!adv.includes('<br>讀書計畫')){
-                        adv.push('<br>讀書計畫');
+                    if(!adv.includes('<br><a href="../tutorial/wordPage2.html" target="_blank" rel="noopener noreferrer">讀書計畫</a>')){
+                        adv.push('<br><a href="../tutorial/wordPage2.html" target="_blank" rel="noopener noreferrer">讀書計畫</a>');
                     };
                     break;
                   case 11:
-                    if(!adv.includes('<br>PPT自傳')){
-                        adv.push('<br>PPT自傳');
+                    if(!adv.includes('<br><a href="../tutorial/pptpage.html" target="_blank" rel="noopener noreferrer">PPT自傳</a>')){
+                        adv.push('<br><a href="../tutorial/pptpage.html" target="_blank" rel="noopener noreferrer">PPT自傳</a>');
                     };
                     break;
                   case 12:
-                    if(!adv.includes('<br>PPT自傳')){
-                        adv.push('<br>PPT自傳');
+                    if(!adv.includes('<br><a href="../tutorial/pptpage.html" target="_blank" rel="noopener noreferrer">PPT自傳</a>')){
+                        adv.push('<br><a href="../tutorial/pptpage.html" target="_blank" rel="noopener noreferrer">PPT自傳</a>');
                     };
                     break;
                   case 13:
-                    if(!adv.includes('<br>PPT自傳')){
-                        adv.push('<br>PPT自傳');
+                    if(!adv.includes('<br><a href="../tutorial/pptpage.html" target="_blank" rel="noopener noreferrer">PPT自傳</a>')){
+                        adv.push('<br><a href="../tutorial/pptpage.html" target="_blank" rel="noopener noreferrer">PPT自傳</a>');
                     };
                     break;
               }

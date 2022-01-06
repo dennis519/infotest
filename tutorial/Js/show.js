@@ -44,9 +44,9 @@
           case 3:
             $('.show2_img').attr('src','image/word_image2-2.png');
             $(this).remove();
+            $('.bd3').fadeIn("slow");
             break;
         }
-        $('.bd3').fadeIn("slow");
       });
       $('.bd3').click(function(){
         $('.show2_img').attr('src','image/word_image2-3.png');
@@ -72,10 +72,10 @@
         $(this).remove();
       });
       $('.vdTag1').click(function(){
-        $('.vid').attr('src','https://www.youtube.com/embed/LigzdLJ0G0E');
+        $('.vid').attr('src','https://www.youtube.com/embed/F5tSoaJ93ac');
       });
       $('.vdTag2').click(function(){
-        $('.vid').attr('src','https://www.youtube.com/embed/zXaCQ7LSqJw');
+        $('.vid').attr('src','https://www.youtube.com/embed/1Z6CHioIn3s');
       });
     });
  })();
