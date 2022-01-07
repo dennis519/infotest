@@ -62,13 +62,13 @@
 }
 
 .view1 {
-  background-image: url(/image/wordbg1.png);
+  background-image: url(../image/wordbg1.png);
   height: 100vh;
   background-position: bottom;
 }
 
 .view2 {
-  background-image: url(/image/wordbg2.png);
+  background-image: url(../image/wordbg2.png);
   height: 100vh;
   background-position: top;
 }
