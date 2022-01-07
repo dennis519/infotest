@@ -72,10 +72,10 @@
         $(this).remove();
       });
       $('.vdTag1').click(function(){
-        $('.vid').attr('src','https://www.youtube.com/embed/F5tSoaJ93ac');
+        $('.vid').attr('src','https://www.youtube.com/embed/LigzdLJ0G0E');
       });
       $('.vdTag2').click(function(){
-        $('.vid').attr('src','https://www.youtube.com/embed/1Z6CHioIn3s');
+        $('.vid').attr('src','https://www.youtube.com/embed/zXaCQ7LSqJw');
       });
     });
  })();
